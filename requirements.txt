@@ -1,0 +1,154 @@
+accelerate==0.18.0
+antlr4-python3-runtime==4.8
+anyio==3.6.2
+appdirs==1.4.4
+async-timeout==4.0.2
+attrs==22.2.0
+audiolm-pytorch==0.27.4
+audioread==3.0.0
+backoff==2.2.1
+beartype==0.13.1
+beautifulsoup4==4.12.2
+bitarray==2.7.3
+braceexpand==0.1.7
+brotlipy==0.7.0
+certifi @ file:///croot/certifi_1671487769961/work/certifi
+cffi @ file:///croot/cffi_1670423208954/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click==8.1.3
+cog==0.6.1
+colorama==0.4.6
+contourpy==1.0.7
+cryptography @ file:///croot/cryptography_1677533068310/work
+cycler==0.11.0
+Cython==0.29.34
+decorator==5.1.1
+Deprecated==1.2.13
+docker-pycreds==0.4.0
+dotmap==1.3.30
+einops==0.6.1
+ema-pytorch==0.2.3
+encodec==0.1.1
+fairseq==0.12.2
+fastapi==0.95.0
+filelock @ file:///croot/filelock_1672387128942/work
+flit_core @ file:///croot/flit-core_1679397103445/work/source/flit_core
+fonttools==4.39.3
+ftfy==6.1.1
+gdown==4.7.1
+gensim==4.3.1
+gitdb==4.0.10
+GitPython==3.1.31
+gmpy2 @ file:///tmp/build/80754af9/gmpy2_1645455533097/work
+googleapis-common-protos==1.59.0
+grpcio==1.53.0
+h11==0.14.0
+h5py==3.8.0
+httptools==0.5.0
+huggingface-hub==0.13.4
+hydra-core==1.0.7
+idna @ file:///croot/idna_1666125576474/work
+imageio==2.27.0
+importlib-metadata==6.0.1
+Jinja2 @ file:///croot/jinja2_1666908132255/work
+joblib==1.2.0
+kiwisolver==1.4.4
+laion-clap==1.1.4
+lazy_loader==0.2
+librosa==0.10.0.post2
+lion-pytorch==0.0.7
+llvmlite==0.39.1
+local-attention==1.8.5
+loguru==0.7.0
+lxml==4.9.2
+MarkupSafe @ file:///opt/conda/conda-bld/markupsafe_1654597864307/work
+matplotlib==3.7.1
+mkl-fft==1.3.1
+mkl-random @ file:///home/builder/ci_310/mkl_random_1641843545607/work
+mkl-service==2.4.0
+mpmath==1.2.1
+msgpack==1.0.5
+musiclm-pytorch==0.2.2
+networkx @ file:///croot/networkx_1678964333703/work
+nltk==3.8.1
+numba==0.56.4
+numpy @ file:///croot/numpy_and_numpy_base_1672336185480/work
+omegaconf==2.0.6
+opentelemetry-api==1.17.0
+opentelemetry-exporter-otlp==1.17.0
+opentelemetry-exporter-otlp-proto-grpc==1.17.0
+opentelemetry-exporter-otlp-proto-http==1.17.0
+opentelemetry-proto==1.17.0
+opentelemetry-sdk==1.17.0
+opentelemetry-semantic-conventions==0.38b0
+packaging==23.0
+pandas==2.0.0
+pathtools==0.1.2
+Pillow==9.4.0
+pooch==1.6.0
+portalocker==2.7.0
+progressbar==2.5
+protobuf==3.20.3
+psutil==5.9.4
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pydantic==1.10.7
+pynndescent==0.5.10
+pyOpenSSL @ file:///croot/pyopenssl_1677607685877/work
+pyparsing==3.0.9
+PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
+python-dateutil==2.8.2
+python-dotenv==1.0.0
+pytz==2023.3
+PyWavelets==1.4.1
+PyYAML==6.0
+redis==4.5.4
+regex==2023.3.23
+requests @ file:///croot/requests_1678709721434/work
+ruamel.yaml==0.17.27
+ruamel.yaml.clib==0.2.7
+sacrebleu==2.3.1
+scikit-image==0.20.0
+scikit-learn==1.2.2
+scipy==1.10.1
+sentence-transformers==2.2.2
+sentencepiece==0.1.98
+sentry-sdk==1.19.1
+setproctitle==1.3.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+smart-open==6.3.0
+smmap==5.0.0
+sniffio==1.3.0
+soundfile==0.12.1
+soupsieve==2.4.1
+soxr==0.3.5
+starlette==0.26.1
+sympy @ file:///croot/sympy_1668202399572/work
+tabulate==0.9.0
+threadpoolctl==3.1.0
+tifffile==2023.3.21
+tokenizers==0.13.3
+torch==2.0.0
+torchaudio==2.0.0
+torchlibrosa==0.1.0
+torchtyping==0.1.4
+torchvision==0.15.0
+tqdm==4.65.0
+transformers==4.27.4
+triton==2.0.0
+typeguard==3.0.2
+typing_extensions @ file:///croot/typing_extensions_1669924550328/work
+tzdata==2023.3
+umap-learn==0.5.3
+urllib3 @ file:///croot/urllib3_1680254681959/work
+uvicorn==0.21.1
+uvloop==0.17.0
+vector-quantize-pytorch==1.2.2
+wandb==0.14.2
+watchfiles==0.19.0
+wcwidth==0.2.6
+webdataset==0.2.48
+websockets==11.0.1
+wget==3.2
+wrapt==1.15.0
+x-clip==0.12.1
+zipp==3.15.0

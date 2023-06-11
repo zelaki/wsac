@@ -1,0 +1,58 @@
+mode: 'train'
+
+wav:
+  sr: 32000 
+  window_length: 1024
+  hop_length: 320
+  n_mels: 128
+
+encoder:
+  model: passt_s_swa_p16_s12_128_ap473z`
+  fstride: 12
+  tstride: 12
+  u_patchout: 0
+  s_patchout_t: 40
+  s_patchout_f: 4
+  freeze: No
+  pretrained: Yes
+
+decoder:
+  nhead: 8 
+  nhid: 512
+  nlayers: 6
+  dropout: 0.2
+  dim_feedforward: 2048
+  activation: 'gelu'
+
+word_embedding:
+  pretrained: Yes
+  freeze: No
+
+data:
+  batch_size: 32
+  num_workers: 8
+  datset: AudioCaps
+
+training:
+  label_smoothing: Yes
+  epochs: 30
+  lr: !!float 1e-4
+  clip_grad: 2
+  seed: 20
+  contrastive: No
+  mix_up: Yes
+  tl: Yes
+
+path:
+  # vocabulary: 'data/pickles/words_list.p'
+  vocabulary: 'pickles/clotho/words_list.p'
+  # vocabulary: '/home/theokouz/all.p'
+  encoder: 'pretrained_models/audioset_deit.pth'  # 'pretrained_models/deit.pth'
+  word2vec: 'pretrained_models/word2vec/w2v_512_clotho_unk.mod'
+  # word2vec: 'pretrained_models/word2vec/w2v_512.model'
+
+ # word2vec: 'pretrained_models/word2vec/w2v_768.model'
+  # eval_model: 'pretrained_models/ACTm.pth'
+  tl_model: 'outputs/macs_audiocaps/model/best_model.pth'
+  # eval_model: 'outputs/clotho_tag_on_pretrained/model/best_model.pth'
+  eval_model: 'outputs/clap_htsat_fist_exp/model/best_model.pth'
