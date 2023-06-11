@@ -1,6 +1,6 @@
 ## Weakly Supervised Automaed Audio Captioning via Text Only Training
 
-<img src="https://github.com/zelaki/wsac/data/main_fig.pdf" width=70% height=70%>
+<img src="https://github.com/zelaki/wsac/blob/main/data/main_fig.pdf" width=70% height=70%>
 
 
 ### About 
