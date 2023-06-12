@@ -91,4 +91,4 @@ Arguments:
  ```
  
 ### Acknowledgements
-The code used in this repo is heavily based on (DeCap)[https://github.com/dhg-wei/DeCap] and (CapDec)[https://github.com/DavidHuji/CapDec]. 
+The code used in this repo is heavily based on [DeCap](https://github.com/dhg-wei/DeCap) and [CapDec](https://github.com/DavidHuji/CapDec). 
