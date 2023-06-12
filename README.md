@@ -51,19 +51,20 @@ Train the model using train.py script:
 python3 train.py --data data/clotho.json --out_dir trained_models/clotho  
 ```
 The configurations / hyperparameters  are the following:
+
 ```
 Arguments:
-  --data Path to training data captions (clotho.json / audiocaps.json)
-  --clap_path Path to clap model weights
-  --out_dir Dir to save trained models
-  --prefix  Prefix for saved filenames
-  --modality_gap_path Path to pickled modality gap vector
-  --epochs Number of epochs to train
-  --bs Bathc size
-  --lr Learning rate
-  --warmup Number of warm-up steps
-  --wd Wight decay factor
-  --noise Noise Variance 
+  --data                Path to training data captions (clotho.json / audiocaps.json)
+  --clap_path           Path to clap model weights
+  --out_dir             Dir to save trained models
+  --prefix              Prefix for saved filenames
+  --modality_gap_path   Path to pickled modality gap vector
+  --epochs              Number of epochs to train
+  --bs                  Batch size
+  --lr                  Learning rate
+  --warmup              Number of warm-up steps
+  --wd                  Weight decay factor
+  --noise               Noise Variance 
 ```
 
 
