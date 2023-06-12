@@ -57,3 +57,27 @@ Arguments:
   --wd Wight decay factor
   --noise Noise Variance 
 ```
+
+
+- Noise Injection training as described in [[1]](https://arxiv.org/pdf/2211.00575.pdf), set --noise equal to the desired noise variance. 
+- Embedding Shift training set --modality_gap_path to the path of a pickled modality gab vector.
+
+
+
+### Evaluation
+Evaluated the trained models using evaluation.py script
+```
+evaluation.py --model_path path/to/trained/model.pt --clap_path path/to/clap/model.pt --dataset clotho --eval_dir path/to/testset/waveforms 
+```
+The arguments of the evaluation script are the following:
+
+```
+Arguments:
+  --model_path          Path to trained model
+  --clap_path           Path to clap model
+  --dataset             Dataset name (clotho/audiocaps)
+  --eval_dir            Path to dirctory with waveforms from the test set
+  --method              What inference stradegy top use for decoding (ad/nnd/pd)
+  --mem                 Path to json with text to use for Memory construciton. 
+ ```
+ 
