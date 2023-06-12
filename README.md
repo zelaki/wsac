@@ -68,8 +68,8 @@ Arguments:
 ```
 
 
-- Noise Injection training as described in [[1]](https://arxiv.org/pdf/2211.00575.pdf), set --noise equal to the desired noise variance. 
-- Embedding Shift training set --modality_gap_path to the path of a pickled modality gab vector.
+- For Noise Injection training as described in [[1]](https://arxiv.org/pdf/2211.00575.pdf), set --noise equal to the desired noise variance. 
+- For Embedding Shift training set --modality_gap_path to the path of a pickled modality gab vector.
 
 
 
