@@ -90,3 +90,5 @@ Arguments:
   --mem                 Path to json with text to use for Memory construciton. 
  ```
  
+### Acknowledgements
+The code used in this repo is heavily based on (DeCap)[https://github.com/dhg-wei/DeCap] and (CapDec)[https://github.com/DavidHuji/CapDec]. 
