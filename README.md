@@ -36,6 +36,14 @@ cd data
 python3 csv2json.py /path/to/clotho/train.csv /path/to/audiocaps/train.csv
 ```
 
+### Download CLAP model.
+
+Download CLAP model trained on [WavCaps](https://github.com/XinhaoMei/WavCaps/tree/master) dataset from [link](https://drive.google.com/drive/folders/1MeTBren6LaLWiZI8_phZvHvzz4r9QeCD).
+
+
+
+
+
 ### Training
 
 Train the model using train.py script:
